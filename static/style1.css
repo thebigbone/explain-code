@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+pre {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+code {
+    font-size: 14px;
+}
+
+.explanation {
+    width: 500px;
+    height: 500px;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px;
+    margin: 20px auto;
+    overflow-y: auto;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

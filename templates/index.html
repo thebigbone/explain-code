@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Code Explainar</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Code Explainar</h1>
+        <p>Enter some code below and we'll explain how it works!</p>
+        <form method="POST" action="{{ url_for('result') }}">
+            <textarea name="code" placeholder="Enter code here"></textarea>
+            <button type="submit">Explain</button>
+        </form>
+        <p>{{ code }}</p>
+        <p>{{ messages }} </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Code Explainar - Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style1.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Result</h1>
+        <p>Your code:</p>
+        <pre><code>{{ code }}</code></pre>
+        <p>Explanation:</p>
+        <p>{{ explanation }}</p>
+        <a href="{{ url_for('index') }}">Back to home</a>
+    </div>
+</body>
+
+</html>
